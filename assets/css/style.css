@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Tophead Section Start*/
+.tophead {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    background: #063C3A;
+    justify-content: space-between;
+
+}
+
+.tophead ul li {
+    display: inline-block;
+    color: #fff;
+    margin: 0px 3px;
+}
+
+.tophead ul li a {
+    color: #b7f59e;
+}
+
+/* Tophead Section End*/
+/* Header Section Start */
+header {
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    line-height: 100px;
+    padding: 0px 100px;
+    background: #007563;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+header h1,
+header h3 {
+    display: inline-block;
+}
+
+/* Header Section End */
+/* Navbar section strat */
+nav {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 100px;
+    background: #75AA86;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #000;
+    font-weight:600;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-size: 105%;
+    transition: O.3S linear;
+}
+/* Navbar section end */
+/* Content Section Start */
+main p{
+    padding:3px 8px;
+    padding-right: 50px;
+}
+ main ul li {
+    margin-left: 40px;
+} 
+
+main ul  {
+    margin-top: 10px;
+}
+
+ol li {
+    margin-left: 50px;
+} 
+h4,h2, h3{ 
+    padding: 10px 10px;
+}
+
+#more {
+    display: none;
+}
+#myBtn{
+    color: #34c234;
+    border: none;
+}
+section{
+    width:100%;
+    padding: 0px 100px;
+}
+section main{
+    width:80%;
+    float: left;
+    padding-top: 20px;
+}
+.vl {
+    margin-top: 10px;
+    margin-left: 40px;
+    border-left: 2px solid #595c59;
+    height: 80px;
+  }  
+section aside{
+    width: 20%;
+    float: right;
+    padding: 20px 30px;
+    background: #a1beae;
+}
+aside ul li{
+    font-weight: 700;
+    list-style:none;
+}
+aside ul li ul li{
+    padding-left: 20px;
+    font-weight:normal;
+}
+/* Content Section End */
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: 140px;
+    color: #67b497;;
+    padding: 15px 100px; 
+    background: #007563;
+    margin-top:30px;
+}
+footer .links{
+    width: 33%;
+    float: left;
+}
+footer .follow{
+    width: 33%;
+    float: left;
+}
+footer .copy{
+    width: 34%;
+    float: right;
+    text-align: right;
+}
+footer ul{
+    margin-top:10px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+footer ul li {
+    color:#fff;
+    
+}
+/* Footer Section End */
